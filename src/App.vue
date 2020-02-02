@@ -48,6 +48,7 @@ export default {
 <style lang="scss">
 
 @import '/fonts/BambinoNew/stylesheet.css';
+@import './_styles/colors';
 
 #app {
   // font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -55,7 +56,8 @@ export default {
   font-family: 'Bambino New', 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   // -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: $text-primary;
+  background-color: $bg-primary;
 }
 
 .Container {
