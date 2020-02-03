@@ -1,6 +1,6 @@
 <template>
   <div class="Faq" id="Faq">
-    <h2 class="Title"> FREQUENTLY ASKED QUESTIONS</h2>
+    <h2 class="Title"> Fh bnn mREQUENTLY ASKED QUESTIONS</h2>
 
     <div class="row Answers">
       <div class="col-md-6">
