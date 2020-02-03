@@ -23,7 +23,7 @@
         ></i>
       </a>
       <nav class="Navigation" v-smooth-scroll="navConfig">
-        <a class="Item" href="#About" v-smooth-scroll="navConfig" v-on:click="close">About</a>
+        <a class="Item" href="#About" v-smooth-scroll="navConfig" v-on:click="close">About2</a>
         <a class="Item" href="#Schedule" v-smooth-scroll="navConfig" v-on:click="close">Schedule</a>
         <a class="Item" href="#Speakers" v-smooth-scroll="navConfig" v-on:click="close">Speakers</a>
         <a class="Item" href="#Sponsors" v-smooth-scroll="navConfig" v-on:click="close">Sponsors</a>
