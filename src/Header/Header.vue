@@ -23,18 +23,15 @@
         ></i>
       </a>
       <nav class="Navigation" v-smooth-scroll="navConfig">
-        <!--
-          <a class="Item" href="#Schedule" v-smooth-scroll="navConfig"
-          v-on:click="close">Schedule</a>
-          -->
         <a class="Item" href="#Speakers" v-smooth-scroll="navConfig" v-on:click="close">Speakers</a>
         <a class="Item" href="#Sponsors" v-smooth-scroll="navConfig" v-on:click="close">Sponsors</a>
         <a class="Item" href="#Team" v-smooth-scroll="navConfig" v-on:click="close">Team</a>
         <a class="Item" href="#Location" v-smooth-scroll="navConfig" v-on:click="close">Location</a>
-        <!--
-          <a class="Item" href="#Jobs" v-smooth-scroll="navConfig" v-on:click="close">Jobs</a> -->
         <a class="Item" href="#Faq" v-smooth-scroll="navConfig" v-on:click="close">Faq</a>
-        <a class="Item RequestInvite" href="http://bit.ly/joinJSConf2018" target="_blank" >Request an Invite</a>
+        <a class="Item" href="#Quiz" v-smooth-scroll="navConfig" v-on:click="close">Quiz</a>
+        <div class="RequestInvite">
+          <Button title="Request an Invite" link="http://bit.ly/joinJSConf2018"></Button>
+        </div>
       </nav>
     </div>
   </div>
@@ -43,10 +40,12 @@
 <script>
 import _throttle from 'lodash/throttle';
 import Logo from '../_common/Logo/Logo.vue';
+import Button from "../_common/Button/Button";
 
 export default {
   components: {
     Logo,
+    Button
   },
   data() {
     return {
@@ -173,30 +172,10 @@ export default {
       color: #6CC24A;
       border-bottom: 2px solid #6CC24A;
     }
-
-    &.RequestInvite {
-      border: 2px solid #6cc24a;
-      border-radius: 2px;
-      margin-left: 40px;
-      font-family: Barlow;
-      font-size: 16px;
-      font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.25;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-
-      &:after {
-        // display: none;
-        background-color: #ffdd00;
-      }
-
-      &:hover {
-        background-color: #6cc24a;
-        color: #fff;
-      }
-    }
+  }
+  .RequestInvite {
+    display: inherit;
+    margin: 0 50px;
   }
 }
 
@@ -226,10 +205,6 @@ export default {
 
   .Navigation .Item {
     justify-content: center;
-
-    &.RequestInvite {
-      margin: 10px 0px;
-    }
   }
 
   .NavigationButton {

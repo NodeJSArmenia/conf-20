@@ -71,61 +71,6 @@ export default {
   max-width: 800px;
 }
 
-.Button {
-  padding: 1em 3em;
-  text-transform: uppercase;
-  font-weight: bolder;
-  text-decoration: none;
-  display: inline-block;
-  color: #666;
-  position: relative;
-  box-shadow: 0px 1.68em 1.875em 0.5em rgba(162, 162, 162, 0.3);
-  transition: all .3s ease;
-  top: 0;
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
-
-  &.-default {
-    background-color: #ffffff;
-
-    &:hover {
-      border-bottom: 2px solid #ffdd00;
-    }
-  }
-
-  &.-call-to-action {
-    background: #ef4e4e;
-    color: #fff;
-
-    &:hover {
-      background: #ef4e4e;
-      color: #fff;
-    }
-  }
-
-  &.-small {
-    font-size: .8em;
-    padding: .7em 2em;
-  }
-
-  &:hover {
-    text-decoration: none;
-    color: #524d31e7;
-    top: -2px;
-  }
-
-  &:active {
-    top: 1px;
-    transform: all .1s ease;
-    color: #ffdd00;
-  }
-
-  &:hover,
-  &:active {
-    box-shadow: 0px 1.81em 2.7em 0.5em rgba(162, 162, 162, 0.3);
-  }
-}
-
 .Title {
   font-size: 40px;
   font-weight: bold;
