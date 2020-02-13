@@ -1,38 +1,50 @@
 <template>
   <section class="Speakers" id="Speakers">
     <div class="Container">
-      <h2 class="Title">Who are<br><span class="Accent">The Ninjas?</span></h2>
-      <div class="row no-gutters justify-content-center">
-        <div
-          class="col-md-4 SpeakerCol"
-          v-for="speakerId in speakersList"
-          :key="speakerId">
-          <div class="Speaker">
-            <div
-              class="Img"
-              :style="{
-                backgroundImage: `url(${speakers[speakerId].img})`
-              }">
-            </div>
-            <h3 class="Name">{{speakers[speakerId].name}}</h3>
-            <h5 class="Position">{{speakers[speakerId].position}}</h5>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="CallToActionContainer">
-        <a href="http://bit.ly/speakJS" class="Button -call-to-action" target="_blank">
-          Become a Ninja!
-        </a>
-      </div> -->
+      <h2 class="Title">Call for Incredible <span>Speakers</span></h2>
+      <Banner text="Share your knowledge and skills in Node.js with the Armenian Node community. Become a Node Conf 2020 speaker!"
+              image-source="/banners/illustration-speaker@3x.png"
+              button-link="http://bit.ly/joinJSConf2018"
+              button-text="Become a Speaker"
+              :image-right="true"
+              :is-bold-text="true"
+      ></Banner>
+<!--      <h2 class="Title">Who are<br><span class="Accent">The Ninjas?</span></h2>-->
+<!--      <div class="row no-gutters justify-content-center">-->
+<!--        <div-->
+<!--          class="col-md-4 SpeakerCol"-->
+<!--          v-for="speakerId in speakersList"-->
+<!--          :key="speakerId">-->
+<!--          <div class="Speaker">-->
+<!--            <div-->
+<!--              class="Img"-->
+<!--              :style="{-->
+<!--                backgroundImage: `url(${speakers[speakerId].img})`-->
+<!--              }">-->
+<!--            </div>-->
+<!--            <h3 class="Name">{{speakers[speakerId].name}}</h3>-->
+<!--            <h5 class="Position">{{speakers[speakerId].position}}</h5>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="CallToActionContainer">-->
+<!--        <a href="http://bit.ly/speakJS" class="Button -call-to-action" target="_blank">-->
+<!--          Become a Ninja!-->
+<!--        </a>-->
+<!--      </div>-->
+<!--      <div class="SpeakersBg"></div>-->
     </div>
-    <div class="SpeakersBg"></div>
   </section>
 </template>
 
 <script>
 import speakers from '@/_services/speakers';
+import Banner from "../_common/Banner/Banner";
 
 export default {
+  components: {
+    Banner,
+  },
   data: () => ({
     speakers,
     speakersList: [
@@ -75,19 +87,6 @@ export default {
 .Speakers {
   padding:  100px 0 50px 0;
   position: relative;
-}
-
-.Title {
-  font-size: 4em;
-  font-weight: normal;
-  line-height: 1.2em;
-  margin-bottom: 1.5em;
-
-  .Accent {
-    font-size: 1.2em;
-    color: #93d8f7;
-    font-weight: 900;
-  }
 }
 
 .SpeakerCol {

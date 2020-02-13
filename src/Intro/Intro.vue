@@ -6,25 +6,36 @@
         <span class="Title Subtitle">
           Apr <span>25</span>, 2020   -   <span>AUA</span>, Yerevan</span>
       </div>
+    </div>
+    <Banner title="A full-day, two-track conference all about Node.js."
+            text="Node Conf Armenia is a conference, gathering backend and full-stack Node.js developers in one place to share knowledge, skills with starter or master Node.js developers, have new connections, friends and fun."
+            image-source="/banners/polygons@3x.png"
+            :image-right="false"
+    ></Banner>
+
       <!-- <a href="http://bit.ly/joinJSConf2018" class="Button -default" target="_blank">
         Request an Invite
       </a> -->
-    </div>
   </section>
+
 </template>
 
 <script>
-export default {
+import Banner from "../_common/Banner/Banner";
 
+export default {
+  components: {
+    Banner,
+  },
 };
 </script>
 
 <style scoped lang="scss">
   .Intro {
     display: flex;
-    padding: 150px 0;
     align-items: center;
     justify-content: flex-start;
+    flex-direction: column;
   }
 
   .Container {

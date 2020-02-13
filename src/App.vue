@@ -4,8 +4,8 @@
     <AppHeader />
     <Intro />
     <!-- <Schedule /> -->
-    <!-- <Speakers /> -->
-    <!-- <Sponsors /> -->
+     <Speakers />
+     <Sponsors />
     <Team />
     <Location />
     <Faq />

@@ -3,146 +3,156 @@
     <div class="Container">
 
       <section class="Section">
-        <h3 class="Subtitle">General sponsor</h3>
+        <h2 class="Title">Call for <span>Sponsors</span></h2>
+        <Banner
+          text="Join the board of Node Conf 2020 supporting IT companies, be at one of the biggest IT events in Armenia and get your company seen.
+Become a Node Conf 2020 sponsor!"
+                image-source="/banners/illustration-sponsor-v-1@3x.png"
+                button-link="http://bit.ly/joinJSConf2018"
+                button-text="Become a Sponsor"
+                :image-right="false"
+                :is-bold-text="true"
+        ></Banner>
+<!--        <h3 class="Subtitle">General sponsor</h3>-->
 
-        <div class="row justify-content-center">
-          <div>
-            <a class="Sponsor Sponsor-Simply -main" href="https://www.simplytechnologies.net/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">Simply Technologies</h4>
-            </a>
-          </div>
-        </div>
-      </section>
+<!--        <div class="row justify-content-center">-->
+<!--          <div>-->
+<!--            <a class="Sponsor Sponsor-Simply -main" href="https://www.simplytechnologies.net/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">Simply Technologies</h4>-->
+<!--            </a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </section>-->
 
-      <section class="Section">
-        <h3 class="Subtitle">Gold sponsors</h3>
+<!--      <section class="Section">-->
+<!--        <h3 class="Subtitle">Gold sponsors</h3>-->
 
-        <div class="row justify-content-center">
+<!--        <div class="row justify-content-center">-->
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-            <a class="Sponsor Sponsor-Workfront -gold" href="https://www.workfront.com/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">Workfront</h4>
-            </a>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-            <a class="Sponsor Sponsor-Digitain -gold" href="https://digitain.com/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">Digitain</h4>
-            </a>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-            <a class="Sponsor Sponsor-Devlix -gold" href="https://www.devlix.io/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">Devlix</h4>
-            </a>
-          </div>
-        </div>
-      </section>
+<!--          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">-->
+<!--            <a class="Sponsor Sponsor-Workfront -gold" href="https://www.workfront.com/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">Workfront</h4>-->
+<!--            </a>-->
+<!--          </div>-->
+<!--          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">-->
+<!--            <a class="Sponsor Sponsor-Digitain -gold" href="https://digitain.com/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">Digitain</h4>-->
+<!--            </a>-->
+<!--          </div>-->
+<!--          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">-->
+<!--            <a class="Sponsor Sponsor-Devlix -gold" href="https://www.devlix.io/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">Devlix</h4>-->
+<!--            </a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </section>-->
 
-      <section class="Section">
-        <h3 class="Subtitle">Silver sponsors</h3>
+<!--      <section class="Section">-->
+<!--        <h3 class="Subtitle">Silver sponsors</h3>-->
 
-        <div class="row justify-content-center">
+<!--        <div class="row justify-content-center">-->
 
-          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-SFL -silver" href="https://sflpro.com/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">SFL</h4>
-            </a>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-Synergy -silver" href="https://www.synisys.com/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">Synergy</h4>
-            </a>
-          </div>
+<!--          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-SFL -silver" href="https://sflpro.com/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">SFL</h4>-->
+<!--            </a>-->
+<!--          </div>-->
+<!--          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-Synergy -silver" href="https://www.synisys.com/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">Synergy</h4>-->
+<!--            </a>-->
+<!--          </div>-->
 
-          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-Renderforest -silver" href="https://www.renderforest.com/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">RenderForest</h4>
-            </a>
-          </div>
+<!--          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-Renderforest -silver" href="https://www.renderforest.com/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">RenderForest</h4>-->
+<!--            </a>-->
+<!--          </div>-->
 
-          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-DF -silver" href="http://digitalfactory.co/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">Digital Factory</h4>
-            </a>
-          </div>
+<!--          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-DF -silver" href="http://digitalfactory.co/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">Digital Factory</h4>-->
+<!--            </a>-->
+<!--          </div>-->
 
-          <div class="HR d-none  d-sm-none d-md-block d-lg-block d-xl-block"></div>
+<!--          <div class="HR d-none  d-sm-none d-md-block d-lg-block d-xl-block"></div>-->
 
-          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-Develandoo -silver" href="https://develandoo.com/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">Develandoo</h4>
-            </a>
-          </div>
+<!--          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-Develandoo -silver" href="https://develandoo.com/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">Develandoo</h4>-->
+<!--            </a>-->
+<!--          </div>-->
 
-          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-Vineti -silver" href="https://vineti.com/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">Vineti</h4>
-            </a>
-          </div>
+<!--          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-Vineti -silver" href="https://vineti.com/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">Vineti</h4>-->
+<!--            </a>-->
+<!--          </div>-->
 
-        </div>
-      </section>
+<!--        </div>-->
+<!--      </section>-->
 
-      <section class="Section">
-        <h3 class="Subtitle">Starter sponsors</h3>
+<!--      <section class="Section">-->
+<!--        <h3 class="Subtitle">Starter sponsors</h3>-->
 
-        <div class="row justify-content-center">
-          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-Armsoft -starter" href="http://www.armsoft.am/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">ArmSoft</h4>
-            </a>
-          </div>
-          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-IUNetworks -starter" href="https://www.iunetworks.am/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">IU Networks</h4>
-            </a>
-          </div>
+<!--        <div class="row justify-content-center">-->
+<!--          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-Armsoft -starter" href="http://www.armsoft.am/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">ArmSoft</h4>-->
+<!--            </a>-->
+<!--          </div>-->
+<!--          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-IUNetworks -starter" href="https://www.iunetworks.am/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">IU Networks</h4>-->
+<!--            </a>-->
+<!--          </div>-->
 
-          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-Screenful -starter" href="https://screenful.com/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">Screenful</h4>
-            </a>
-          </div>
+<!--          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-Screenful -starter" href="https://screenful.com/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">Screenful</h4>-->
+<!--            </a>-->
+<!--          </div>-->
 
-          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-EventGeek -starter" href="https://www.eventgeek.com/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">EventGeek</h4>
-            </a>
-          </div>
-        </div>
-      </section>
+<!--          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-EventGeek -starter" href="https://www.eventgeek.com/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">EventGeek</h4>-->
+<!--            </a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </section>-->
 
-      <section class="Section">
-        <h3 class="Subtitle">Partners and friends</h3>
+<!--      <section class="Section">-->
+<!--        <h3 class="Subtitle">Partners and friends</h3>-->
 
-        <div class="row justify-content-center">
-          <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-itjobs -starter" href="https://www.itjobs.am/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">IT Jobs</h4>
-            </a>
-          </div>
+<!--        <div class="row justify-content-center">-->
+<!--          <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-itjobs -starter" href="https://www.itjobs.am/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">IT Jobs</h4>-->
+<!--            </a>-->
+<!--          </div>-->
 
-          <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-            <a class="Sponsor Sponsor-aua -starter" href="https://www.aua.am/" target="_blank">
-              <div class="Image"></div>
-              <h4 class="Name">American University <br> of Armenia</h4>
-            </a>
-          </div>
-        </div>
+<!--          <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">-->
+<!--            <a class="Sponsor Sponsor-aua -starter" href="https://www.aua.am/" target="_blank">-->
+<!--              <div class="Image"></div>-->
+<!--              <h4 class="Name">American University <br> of Armenia</h4>-->
+<!--            </a>-->
+<!--          </div>-->
+<!--        </div>-->
       </section>
 
       <!-- <div class="CallToActionContainer">
@@ -152,30 +162,34 @@
       </div> -->
     </div>
 
-    <div class="SponsorsBgTop"></div>
-    <div class="SponsorsBgBottom"></div>
+<!--    <div class="SponsorsBgTop"></div>-->
+<!--    <div class="SponsorsBgBottom"></div>-->
   </section>
 </template>
 
 <script>
-export default {
+import Banner from "../_common/Banner/Banner";
 
+export default {
+  components: {
+    Banner,
+  },
 };
 </script>
 
 <style scoped lang="scss">
-.Sponsors {
-  padding: 15vw 0;
-  background-color: #f5f5f5;
-  // background-color: #f5f5f5;
-  // background-image: url('./SponsorsBg.png');
-  background-repeat: no-repeat;
-  min-height: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
+/*.Sponsors {*/
+/*  padding: 15vw 0;*/
+/*  background-color: #f5f5f5;*/
+/*  // background-color: #f5f5f5;*/
+/*  // background-image: url('./SponsorsBg.png');*/
+/*  background-repeat: no-repeat;*/
+/*  min-height: 1000px;*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  position: relative;*/
+/*}*/
 
 .Container {
   position: relative;

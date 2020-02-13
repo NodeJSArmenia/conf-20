@@ -168,17 +168,18 @@ export default {
         z-index: -1;
       }
 
-      &.active,
-      &:hover {
-        color: $green-primary;
-        border-bottom: 2px solid $green-primary;
-      }
-    }
-    .RequestInvite {
-      display: inherit;
-      margin: 0 50px;
+    &.active,
+    &:hover {
+      color: #6CC24A;
+      border-bottom: 2px solid #6CC24A;
     }
   }
+  .RequestInvite {
+    display: inherit;
+    margin: 0 50px;
+    z-index: 0;
+  }
+}
 
   .NavBtn {
     display: none;
