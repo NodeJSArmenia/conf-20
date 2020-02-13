@@ -46,7 +46,7 @@
                     The entry of NodeConfAM20 is invitation-only so
                     please make sure to request your free invite
                     <a href="http://bit.ly/joinNodeConfAM20" target="_blank">here</a>
-                    in 3 weeks after the application opens. Starting from March 9 the tickets will cost 5000AMD.
+                    in 3 weeks after the application opens. Starting from March 16 the tickets will cost 5000AMD.
                 </p>
 
             </div>
@@ -54,18 +54,12 @@
 
                 <h3 class="Question">How much is the entry-ticket?</h3>
                 <p class="Answer">
-                    The event entry is free of charge before March 9. Later it will cost 5000AMD.
+                    The event entry is free of charge before March 16. Later it will cost 5000AMD.
                 </p>
 
                 <h3 class="Question">When is the deadline for registration?</h3>
                 <p class="Answer">
-                    The deadline for requesting free tickets ends March 9.
-                </p>
-
-                <h3 class="Question">Who are behind the Node Conference Armenia? </h3>
-                <p class="Answer">
-                    To see the Node Conference Armenia team, please,
-                    <a href="#Team" v-smooth-scroll="navConfig">click here</a>.
+                    The deadline for requesting free tickets ends March 16.
                 </p>
 
                 <h3 class="Question">How can I help the team?</h3>
@@ -81,6 +75,13 @@
                     To learn about our sponsors and partners, please,
                     <a href="#Sponsors" v-smooth-scroll="navConfig">click here</a>.
                 </p>
+
+                <h3 class="Question">Who are behind the Node Conference Armenia? </h3>
+                <p class="Answer">
+                    To see the Node Conference Armenia team, please,
+                    <a href="#Team" v-smooth-scroll="navConfig">click here</a>.
+                </p>
+
 
                 <h3 class="Question">Will I get a certificate of participation?</h3>
                 <p class="Answer">
