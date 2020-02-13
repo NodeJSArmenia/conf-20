@@ -34,6 +34,21 @@
                     The conference will take place from 10:00 to 17:00 on April 25, 2020.
                 </p>
 
+                <h3 class="Question">How to participate?</h3>
+                <p class="Answer">
+                    The entry of NodeConfAM20 is invitation-only so
+                    please make sure to request your free invite
+                    <a href="http://bit.ly/joinNodeConfAM20" target="_blank">here</a>
+                    in 4 weeks after the application opens. Starting from March 16 the tickets will cost 5000AMD.
+                </p>
+
+            </div>
+            <div class="col-md-6">
+                <h3 class="Question">How much is the entry-ticket?</h3>
+                <p class="Answer">
+                    The event entry is free of charge before March 16. Later it will cost 5000AMD.
+                </p>
+
                 <h3 class="Question">Where is it going to be held?</h3>
                 <p class="Answer">
                     NodeConfAM20 will be held at the B Building of
@@ -41,25 +56,15 @@
                     (40 Marshal Baghramyan Ave, Yerevan)․
                 </p>
 
-                <h3 class="Question">How to participate?</h3>
-                <p class="Answer">
-                    The entry of NodeConfAM20 is invitation-only so
-                    please make sure to request your free invite
-                    <a href="http://bit.ly/joinNodeConfAM20" target="_blank">here</a>
-                    in 3 weeks after the application opens. Starting from March 16 the tickets will cost 5000AMD.
-                </p>
-
-            </div>
-            <div class="col-md-6">
-
-                <h3 class="Question">How much is the entry-ticket?</h3>
-                <p class="Answer">
-                    The event entry is free of charge before March 16. Later it will cost 5000AMD.
-                </p>
-
                 <h3 class="Question">When is the deadline for registration?</h3>
                 <p class="Answer">
-                    The deadline for requesting free tickets ends March 16.
+                    The deadline for requesting free tickets ends March 15.
+                </p>
+
+                <h3 class="Question">Who supports Node Conference Armenia?</h3>
+                <p class="Answer">
+                    To learn about our sponsors and partners, please,
+                    <a href="#Sponsors" v-smooth-scroll="navConfig">click here</a>.
                 </p>
 
                 <h3 class="Question">How can I help the team?</h3>
@@ -70,19 +75,6 @@
                     to become a Node Conf super volunteer!
                 </p>
 
-                <h3 class="Question">Who supports Node Conference Armenia?</h3>
-                <p class="Answer">
-                    To learn about our sponsors and partners, please,
-                    <a href="#Sponsors" v-smooth-scroll="navConfig">click here</a>.
-                </p>
-
-                <h3 class="Question">Who are behind the Node Conference Armenia? </h3>
-                <p class="Answer">
-                    To see the Node Conference Armenia team, please,
-                    <a href="#Team" v-smooth-scroll="navConfig">click here</a>.
-                </p>
-
-
                 <h3 class="Question">Will I get a certificate of participation?</h3>
                 <p class="Answer">
                     Your certificate of participation in Node Conference is going to be
@@ -90,6 +82,11 @@
                     nice little gifts and good memories. Do you still need that piece of paper?
                 </p>
 
+                <h3 class="Question">Who are behind the Node Conference Armenia? </h3>
+                <p class="Answer">
+                    To see the Node Conference Armenia team, please,
+                    <a href="#Team" v-smooth-scroll="navConfig">click here</a>.
+                </p>
             </div>
         </div>
 
