@@ -15,5 +15,5 @@ Vue.use(vueSmoothScroll);
 Vue.use(Tooltip);
 
 new Vue({
-  render: h => h(App),
+    render: h => h(App),
 }).$mount('#app');

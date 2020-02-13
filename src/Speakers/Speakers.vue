@@ -1,158 +1,53 @@
 <template>
-  <section class="Speakers" id="Speakers">
-    <div class="Container">
-      <h2 class="Title">Call for Incredible <span>Speakers</span></h2>
-      <Banner text="Share your knowledge and skills in Node.js with the Armenian Node community. Become a Node Conf 2020 speaker!"
-              image-source="/banners/illustration-speaker@3x.png"
-              button-link="http://bit.ly/joinJSConf2018"
-              button-text="Become a Speaker"
-              :image-right="true"
-              :is-bold-text="true"
-      ></Banner>
-<!--      <h2 class="Title">Who are<br><span class="Accent">The Ninjas?</span></h2>-->
-<!--      <div class="row no-gutters justify-content-center">-->
-<!--        <div-->
-<!--          class="col-md-4 SpeakerCol"-->
-<!--          v-for="speakerId in speakersList"-->
-<!--          :key="speakerId">-->
-<!--          <div class="Speaker">-->
-<!--            <div-->
-<!--              class="Img"-->
-<!--              :style="{-->
-<!--                backgroundImage: `url(${speakers[speakerId].img})`-->
-<!--              }">-->
-<!--            </div>-->
-<!--            <h3 class="Name">{{speakers[speakerId].name}}</h3>-->
-<!--            <h5 class="Position">{{speakers[speakerId].position}}</h5>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      <div class="CallToActionContainer">-->
-<!--        <a href="http://bit.ly/speakJS" class="Button -call-to-action" target="_blank">-->
-<!--          Become a Ninja!-->
-<!--        </a>-->
-<!--      </div>-->
-<!--      <div class="SpeakersBg"></div>-->
-    </div>
-  </section>
+	<section class="Speakers" id="Speakers">
+		<div class="Container">
+			<h2 class="Title">Call for Incredible <span>Speakers</span></h2>
+			<Banner
+				text="Share your knowledge and skills in Node.js with the Armenian Node community. Become a Node Conf 2020 speaker!"
+				image-source="/banners/illustration-speaker@3x.png"
+				button-link="http://bit.ly/joinJSConf2018"
+				button-text="Become a Speaker"
+				:image-right="true"
+				:is-bold-text="true"
+			></Banner>
+		</div>
+	</section>
 </template>
 
 <script>
-import speakers from '@/_services/speakers';
-import Banner from "../_common/Banner/Banner";
+	import speakers from '@/_services/speakers';
+	import Banner from "../_common/Banner/Banner";
 
-export default {
-  components: {
-    Banner,
-  },
-  data: () => ({
-    speakers,
-    speakersList: [
-      'Illya_Klymov',
-      'Natalia_Tepluhina',
-      'Juho_Vepsäläinen',
-      'Tejas_Kumar',
-      'Rouben_Meschian',
-      'Gor_Rustamyan',
-      'Vardges_Vardanyan',
-      'Lilit_Tadevosyan',
-      'Aghasi_Lorsabyan',
-      'Shahen_Hovhannisyan',
-      'Hayk_Barseghyan',
-      'Varuzhan_Harutyunyan',
-      'Ruben_Sargsyan',
-      'Hrach_Mkrtchyan',
-      'Khachatur_Virabyan',
-      'Slavik_Manukyan',
-      'Nairi_Haroutiounian',
-      'Razmik_Bourtoutian',
-      'Hayk_Galstyan',
-      'Robert_Hanesoghlyan',
-      'Vova_Hayrapetyan',
-      'Narek_Ghevondian',
-      'Arnold_Dadayan',
-      'Ruben_Harutyunyan',
-      'Albert_Hovhannisyan',
-    ],
-  }),
-  methods: {
-    getSpeaker: function getSpeaker(speakerId) {
-      return this.speakers[speakerId];
-    },
-  },
-};
+	export default {
+		components: {
+			Banner,
+		},
+		data: () => ({
+			speakers,
+			speakersList: [
+			],
+		}),
+		methods: {
+			getSpeaker: function getSpeaker(speakerId) {
+				return this.speakers[speakerId];
+			},
+		},
+	};
 </script>
 
 <style scoped lang="scss">
-.Speakers {
-  padding:  100px 0 50px 0;
-  position: relative;
-}
+	.Speakers {
+		padding: 100px 0 50px 0;
+		position: relative;
+	}
 
-.SpeakerCol {
-  display: flex;
-  justify-content: center;
-}
+	@media (max-width: 600px) {
+		.Title {
+			font-size: 3em;
+		}
 
-.Speaker {
-  max-width: 250px;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.Img {
-  width: 100%;
-  padding-bottom: 100%;
-  margin-bottom: 10px;
-  background-size: cover;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  border-radius: 50%;
-  filter: grayscale(90%);
-  transition: .3s ease all;
-}
-
-.Speaker:hover {
-  .Img {
-    filter: grayscale(0);
-  }
-}
-
-.Name {
-  margin-bottom: 0;
-}
-
-.Position {
-  color: #999;
-}
-
-.CallToActionContainer {
-  padding-top: 50px;
-  text-align: center;
-}
-
-.SpeakersBg {
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-image: url('./SpeakersBg.svg');
-  background-size: 70%;
-  background-position-y: 12%;
-  background-position-x: right;
-}
-
-@media (max-width: 600px) {
-  .Title {
-    font-size: 3em;
-  }
-
-  .Speakers {
-    padding: 50px 0 50px;
-  }
-}
+		.Speakers {
+			padding: 50px 0 50px;
+		}
+	}
 </style>
