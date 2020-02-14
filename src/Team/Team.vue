@@ -4,7 +4,7 @@
             <h2 class="Title">Incredible <span>Team</span></h2>
             <div v-for="(team, teamIndex) in teams"
                  :key="teamIndex">
-                <h3 class="TeamName" v-bind:class="{ Green: team.isGreen }">{{team.name}}</h3>
+                <!-- <h3 class="TeamName" v-bind:class="{ Green: team.isGreen }">{{team.name}}</h3> -->
                 <div class="row">
                     <div class="col MemberCol"
                         v-for="(member, index) in team.members"

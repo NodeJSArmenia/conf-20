@@ -95,7 +95,7 @@ export default {
 
 	@media (max-width: 500px) {
 		.Title {
-			font-size: 35px;
+			font-size: 40px;
 		}
 
 		.Subtitle {

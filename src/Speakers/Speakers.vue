@@ -47,10 +47,6 @@ export default {
 	}
 
 	@media (max-width: 600px) {
-		.Title {
-			font-size: 3em;
-		}
-
 		.Speakers {
 			padding: 50px 0 50px;
 		}
