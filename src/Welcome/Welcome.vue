@@ -50,13 +50,13 @@ export default {
 
     .Welcome {
         height: 100vh;
-        background-image: url(../../public/bg-pattern.png);
+        background-image: url(https://topentol.sirv.com/nodeconf20/bg-pattern.webp);
         background-repeat: repeat;
     }
 
     .Network {
         position: absolute;
-        background-image: url(../../public/bg.png);
+        background-image: url(https://topentol.sirv.com/nodeconf20/bg.webp);
         transition: opacity 0.25s cubic-bezier(0.4, 0, 1, 1);
         opacity: 0;
     }
@@ -70,7 +70,7 @@ export default {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        background-image: url(./logo-big.png);
+        background-image: url(https://topentol.sirv.com/nodeconf20/logo-big.webp);
         transition: opacity 1s cubic-bezier(0.4, 0, 1, 1);
         opacity: 0;
     }

@@ -48,7 +48,7 @@ export default {
 		font-family: 'Barlow', 'Avenir', Helvetica, Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
 		color: $text-primary;
-		background: url(../public/bg-pattern.png) $bg-primary;
+		background: url(https://topentol.sirv.com/nodeconf20/bg-pattern.webp) $bg-primary;
 	}
 
 	.Container {

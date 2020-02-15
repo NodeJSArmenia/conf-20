@@ -71,7 +71,7 @@ export default {
         flex-direction: column;
         position: relative;
         padding-bottom: 50px;
-        background-image: url(https://topentol.sirv.com/nodeconf20/footer/bg.png);
+        background-image: url(https://topentol.sirv.com/nodeconf20/bg.webp);
 
         a {
             text-decoration: none;
