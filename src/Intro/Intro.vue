@@ -2,7 +2,7 @@
 	<section class="Intro" id="Intro">
 		<div class="Container">
 			<div id="Titles">
-				<h1 class="Title"><span>NodeConf</span> 2020 Armenia</h1>
+				<h1 class="Title HeadTitle"><span>NodeConf</span> 2020 Armenia</h1>
 				<span class="Title Subtitle">Apr <span>25</span>, 2020   -   <span>AUA</span>, Yerevan</span>
 			</div>
 		</div>
@@ -119,7 +119,7 @@ export default {
 			margin: -45px auto;
 		}
 
-		.Title {
+		.HeadTitle {
 			font-size: 40px;
 		}
 	}
