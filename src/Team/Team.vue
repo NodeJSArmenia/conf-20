@@ -2,18 +2,17 @@
     <section class="Team" id="Team">
         <div class="Container">
             <h2 class="Title">Incredible <span>Team</span></h2>
-            <div v-for="(team, teamIndex) in teams"
+            <div class="row"
+                 v-for="(team, teamIndex) in teams"
                  :key="teamIndex">
-                <!-- <h3 class="TeamName" v-bind:class="{ Green: team.isGreen }">{{team.name}}</h3> -->
-                <div class="row">
-                    <div class="col MemberCol"
-                        v-for="(member, index) in team.members"
-                        :key="index">
-                        <div class="Member">
-                            <div class="Img" :style="{ backgroundImage: `url(${member.img})` }"></div>
-                            <h3 class="Name">{{member.name}}</h3>
-                            <h5 class="Position">{{member.position}}</h5>
-                        </div>
+                <h3 class="Title TeamTitle"><span>{{ team.title.green }}</span> {{ team.title.white }}</h3>
+                <div class="MemberCol">
+                    <div class="Member"
+                         v-for="(member, index) in team.members"
+                         :key="index">
+                        <div class="Img" :style="{ backgroundImage: `url(${member.img})` }"></div>
+                        <h3 class="Name">{{member.name}}</h3>
+                        <h5 class="Position">{{member.position}}</h5>
                     </div>
                 </div>
             </div>
@@ -26,8 +25,10 @@ export default {
 	data: () => ({
 		teams: [
 			{
-				name: 'Node.js Armenia',
-				isGreen: true,
+			    title: {
+			        green: 'Node.js',
+                    white: 'Armenia',
+                },
 				members: [
 					{
 						img: '/team/Nairi_Harutyunyan.png',
@@ -57,8 +58,10 @@ export default {
 				],
 			},
 			{
-				name: 'Tech Events Armenia',
-				isGreen: true,
+                title: {
+                    green: 'Tech Events',
+                    white: 'Armenia',
+                },
 				members: [
 					{
 						img: '/team/Alexander_Adamyan.png',
@@ -99,29 +102,31 @@ export default {
         padding: 50px 0;
     }
 
-    .TeamName {
-        font-weight: 500;
-        margin: 0 0px 20px 20px;
-
-        &.Green {
-            color: #6CC24A;
-        }
-    }
-
     .MemberCol {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .Title {
         margin-bottom: 50px;
     }
 
-    .Member {
-        max-width: 180px;
+    .TeamTitle {
         width: 100%;
+        font-size: 30px;
+        padding-left: 20px;
+        margin-bottom: 30px;
+        font-weight: bold;
+        text-align: left;
+        border-bottom: 3px solid $text-primary;
+    }
+
+    .Member {
+        width: 20%;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 25px;
     }
 
     .Img {
@@ -165,24 +170,22 @@ export default {
         color: #e8e8e8;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 500px) {
         .MemberCol {
-            width: 100%;
-            min-width: 100%;
+            justify-content: center;
         }
 
         .Member {
-            max-width: 280px;
+            width: 100%;
         }
 
         .Img {
             background-size: 80%;
         }
 
-        .TeamName {
-            margin: 0 0px 20px 0;
+        .TeamTitle {
             text-align: center;
-            font-size: 25px;
+            padding: 0;
         }
     }
 </style>
