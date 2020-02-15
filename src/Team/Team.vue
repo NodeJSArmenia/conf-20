@@ -108,6 +108,7 @@ export default {
         width: 20%;
         text-align: center;
         margin-bottom: 25px;
+        padding: 0 10px;
     }
 
     .Img {
@@ -164,6 +165,7 @@ export default {
 
         .Member {
             width: 100%;
+            padding: 0 30px;
         }
 
         .Img {
