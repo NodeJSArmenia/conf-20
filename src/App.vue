@@ -48,7 +48,7 @@ export default {
 		font-family: 'Barlow', 'Avenir', Helvetica, Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
 		color: $text-primary;
-		background: url(../public/bg-pattern.jpg) $bg-primary;
+		background: url(../public/bg-pattern.png) $bg-primary;
 	}
 
 	.Container {

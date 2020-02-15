@@ -50,7 +50,8 @@ export default {
 
     .Welcome {
         height: 100vh;
-        background-image: url(../../public/bg-pattern.jpg);
+        background-image: url(../../public/bg-pattern.png);
+        background-repeat: repeat;
     }
 
     .Network {
