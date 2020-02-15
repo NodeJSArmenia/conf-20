@@ -10,7 +10,7 @@
         "lint:fix": "vue-cli-service lint --fix",
         "deploy": "npm run build && echo nodeconf.am > ./dist/CNAME && gh-pages -d dist --repo git@github.com:NodeJSArmenia/conf-20.git --branch gh-pages",
         "postinstall": "npm run build",
-        "heroku-postbuild": "heroku-postbuild"
+        "heroku-postbuild": "npm run build"
     },
     "dependencies": {
         "bootstrap": "^4.1.3",
