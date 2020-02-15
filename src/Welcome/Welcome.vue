@@ -33,9 +33,11 @@ export default {
 		},
 	},
 	mounted() {
-		this.showLogo();
-		this.showNetwork();
-		this.scrollToIntro();
+		window.onload = () => {
+			this.showLogo();
+			this.showNetwork();
+			this.scrollToIntro();
+		};
 	},
 };
 </script>
