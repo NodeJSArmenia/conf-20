@@ -2,7 +2,7 @@
 	<div class="Header" :class="{ '-open': isOpen, '-sticked': isSticked }">
 		<div class="Container HeaderContainer">
 			<div class="LogoContainer">
-				<a href="#Intro" v-smooth-scroll="navConfig" v-on:click="close">
+				<a href="#Intro" id="IntroLogo" v-smooth-scroll="navConfig" v-on:click="close">
 					<Logo/>
 				</a>
 			</div>
@@ -40,7 +40,7 @@ export default {
 			scrollPos: window.scrollY,
 			isOpen: false,
 			navConfig: {
-				duration: 1000,
+				duration: 2000,
 				offset: -66,
 			},
 		};
@@ -82,11 +82,12 @@ export default {
 		padding: .5em 0;
 		position: fixed;
 		width: 100%;
-		top: -80px;
+		top: -100px;
 		left: 0;
 		z-index: 100;
-		background-color: transparent;
-		transition: top .2s cubic-bezier(0, -0.01, 0.96, 0.21);
+		background: $bg-primary;
+		transition: top 0.3s cubic-bezier(0.02, 0.01, 1, 0.6);
+		border-bottom: 1px solid $green-primary;;
 
 		&.-sticked {
 			display: flex;
@@ -94,8 +95,7 @@ export default {
 			top: 0;
 			min-height: 80px;
 			background: $bg-primary;
-			border-bottom: 1px solid $green-primary;
-			transition: top .2s cubic-bezier(0, -0.01, 0.96, 0.21);
+			transition: top 0.3s cubic-bezier(0.02, 0.01, 1, 0.6);
 		}
 
 	}
@@ -194,7 +194,6 @@ export default {
 		.Header.-open .Navigation {
 			top: 0;
 			transition: top .6s ease;
-			border-bottom: 1px solid $green-primary;;
 		}
 
 		.Navigation .Item {

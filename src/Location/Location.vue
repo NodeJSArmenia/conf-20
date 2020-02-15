@@ -68,7 +68,6 @@ export default {};
     @media (max-width: 680px) {
         .Location {
             flex-direction: column;
-            padding: 0;
         }
 
         .Map {

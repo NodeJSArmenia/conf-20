@@ -1,12 +1,43 @@
 <template>
     <section class="Welcome" id="Welcome">
-        <div class="Network"></div>
-        <div class="Logo"></div>
+        <div class="Network" :class="{ '-visible': netoworkVisible }"></div>
+        <div class="Logo" :class="{ '-visible': logoVisible }"></div>
     </section>
 </template>
 
 <script>
-export default {};
+export default {
+	data() {
+		return {
+			netoworkVisible: false,
+			logoVisible: false,
+		};
+	},
+	methods: {
+		showLogo() {
+			setTimeout(() => {
+				this.netoworkVisible = true;
+			}, 1200);
+		},
+		showNetwork() {
+			requestAnimationFrame(() => {
+				this.logoVisible = true;
+			});
+		},
+		scrollToIntro() {
+			if (window.location.hash === '#' || !window.location.hash) {
+				setTimeout(() => {
+					document.getElementById('IntroLogo').click();
+				}, 2500);
+			}
+		},
+	},
+	mounted() {
+		this.showLogo();
+		this.showNetwork();
+		this.scrollToIntro();
+	},
+};
 </script>
 
 <style scoped lang="scss">
@@ -16,7 +47,6 @@ export default {};
     }
 
     .Welcome {
-        width: 100vw;
         height: 100vh;
         background-image: url(../../public/bg-pattern.jpg);
     }
@@ -24,6 +54,8 @@ export default {};
     .Network {
         position: absolute;
         background-image: url(./bg.png);
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 1, 1);
+        opacity: 0;
     }
 
     .Logo {
@@ -36,5 +68,13 @@ export default {};
         background-size: contain;
         background-repeat: no-repeat;
         background-image: url(./logo-big.png);
+        transition: opacity 1s cubic-bezier(0.4, 0, 1, 1);
+        opacity: 0;
+    }
+
+    .Logo, .Network {
+        &.-visible {
+            opacity: 1;
+        }
     }
 </style>
