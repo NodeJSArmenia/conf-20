@@ -50,13 +50,13 @@ export default {
 
     .Welcome {
         height: 100vh;
-        background-image: url(https://topentol.sirv.com/nodeconf20/bg-pattern.webp);
+        background-image: url(../../public/bg-pattern.jpg);
         background-repeat: repeat;
     }
 
     .Network {
         position: absolute;
-        background-image: url(https://topentol.sirv.com/nodeconf20/bg.webp);
+        background-image: url(../../public/bg.png);
         transition: opacity 0.25s cubic-bezier(0.4, 0, 1, 1);
         opacity: 0;
     }
