@@ -8,7 +8,7 @@
 		</div>
 		<Banner title="A full-day, two-track conference all about Node.js."
 				text="Node Conf Armenia is a conference, gathering backend and full-stack Node.js developers in one place to share knowledge, skills with starter or master Node.js developers, have new connections, friends and fun."
-				image-source="/banners/polygons@3x.png"
+				:image-source="imageSource"
 				:image-right="false"
 		></Banner>
 	</section>
@@ -17,11 +17,16 @@
 
 <script>
 import Banner from '../_common/Banner/Banner.vue';
+import { serverUri } from "../variables";
+import speakers from "../_services/speakers";
 
 export default {
 	components: {
 		Banner,
 	},
+    data: () => ({
+        imageSource: `${serverUri}/banners/polygons@3x.png`
+    }),
 };
 </script>
 

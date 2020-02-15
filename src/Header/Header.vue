@@ -82,7 +82,7 @@ export default {
 		padding: .5em 0;
 		position: fixed;
 		width: 100%;
-		top: -100px;
+		top: -150px;
 		left: 0;
 		z-index: 100;
 		background: $bg-primary;
