@@ -17,16 +17,16 @@
 
 <script>
 import Banner from '../_common/Banner/Banner.vue';
-import { serverUri } from "../variables";
-import speakers from "../_services/speakers";
+import { serverUri } from '../variables';
+import speakers from '../_services/speakers';
 
 export default {
 	components: {
 		Banner,
 	},
-    data: () => ({
-        imageSource: `${serverUri}/banners/polygons@3x.png`
-    }),
+	data: () => ({
+		imageSource: `${serverUri}/banners/polygons@3x.png`,
+	}),
 };
 </script>
 

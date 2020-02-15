@@ -20,9 +20,9 @@
 </template>
 
 <script>
-    import { serverUri } from "../variables";
+import { serverUri } from '../variables';
 
-    export default {
+export default {
 	data: () => ({
 		teams: [
 			{

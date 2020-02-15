@@ -71,7 +71,7 @@ export default {
         flex-direction: column;
         position: relative;
         padding-bottom: 50px;
-        background-image: url(../../public/bg.png);
+        background-image: url(https://topentol.sirv.com/nodeconf20/footer/bg.png);
 
         a {
             text-decoration: none;
@@ -113,9 +113,9 @@ export default {
         -ms-transition: background-color 200ms linear;
         transition: background-color 200ms linear;
 
-        -webkit-mask: url(./polygon-green.svg) no-repeat 50% 50%;
-        -ms-mask: url(./polygon-green.svg) no-repeat 50% 50%;
-        mask: url(./polygon-green.svg) no-repeat 50% 50%;
+        -webkit-mask: url(https://topentol.sirv.com/nodeconf20/footer/polygon-green.svg) no-repeat 50% 50%;
+        -ms-mask: url(https://topentol.sirv.com/nodeconf20/footer/polygon-green.svg) no-repeat 50% 50%;
+        mask: url(https://topentol.sirv.com/nodeconf20/footer/polygon-green.svg) no-repeat 50% 50%;
 
         &:hover {
             background-color: $green-primary;
@@ -143,39 +143,39 @@ export default {
         transition: background-color 200ms linear;
 
         &-Github {
-            -webkit-mask: url(./github.svg) no-repeat 50% 50%;
-            -ms-mask: url(./github.svg) no-repeat 50% 50%;
-            mask: url(./github.svg) no-repeat 50% 50%;
+            -webkit-mask: url(https://topentol.sirv.com/nodeconf20/footer/github.svg) no-repeat 50% 50%;
+            -ms-mask: url(https://topentol.sirv.com/nodeconf20/footer/github.svg) no-repeat 50% 50%;
+            mask: url(https://topentol.sirv.com/nodeconf20/footer/github.svg) no-repeat 50% 50%;
         }
 
         &-Twitter {
-            -webkit-mask: url(./twitter.svg) no-repeat 50% 50%;
-            -ms-mask: url(./twitter.svg) no-repeat 50% 50%;
-            mask: url(./twitter.svg) no-repeat 50% 50%;
+            -webkit-mask: url(https://topentol.sirv.com/nodeconf20/footer/twitter.svg) no-repeat 50% 50%;
+            -ms-mask: url(https://topentol.sirv.com/nodeconf20/footer/twitter.svg) no-repeat 50% 50%;
+            mask: url(https://topentol.sirv.com/nodeconf20/footer/twitter.svg) no-repeat 50% 50%;
         }
 
         &-Facebook {
-            -webkit-mask: url(./facebook.svg) no-repeat 50% 50%;
-            -ms-mask: url(./facebook.svg) no-repeat 50% 50%;
-            mask: url(./facebook.svg) no-repeat 50% 50%;
+            -webkit-mask: url(https://topentol.sirv.com/nodeconf20/footer/facebook.svg) no-repeat 50% 50%;
+            -ms-mask: url(https://topentol.sirv.com/nodeconf20/footer/facebook.svg) no-repeat 50% 50%;
+            mask: url(https://topentol.sirv.com/nodeconf20/footer/facebook.svg) no-repeat 50% 50%;
         }
 
         &-Instagram {
-            -webkit-mask: url(./instagram.svg) no-repeat 50% 50%;
-            -ms-mask: url(./instagram.svg) no-repeat 50% 50%;
-            mask: url(./instagram.svg) no-repeat 50% 50%;
+            -webkit-mask: url(https://topentol.sirv.com/nodeconf20/footer/instagram.svg) no-repeat 50% 50%;
+            -ms-mask: url(https://topentol.sirv.com/nodeconf20/footer/instagram.svg) no-repeat 50% 50%;
+            mask: url(https://topentol.sirv.com/nodeconf20/footer/instagram.svg) no-repeat 50% 50%;
         }
 
         &-Youtube {
-            -webkit-mask: url(./youtube.svg) no-repeat 50% 50%;
-            -ms-mask: url(./youtube.svg) no-repeat 50% 50%;
-            mask: url(./youtube.svg) no-repeat 50% 50%;
+            -webkit-mask: url(https://topentol.sirv.com/nodeconf20/footer/youtube.svg) no-repeat 50% 50%;
+            -ms-mask: url(https://topentol.sirv.com/nodeconf20/footer/youtube.svg) no-repeat 50% 50%;
+            mask: url(https://topentol.sirv.com/nodeconf20/footer/youtube.svg) no-repeat 50% 50%;
         }
 
         &-Telegram {
-            -webkit-mask: url(./telegram.svg) no-repeat 50% 50%;
-            -ms-mask: url(./telegram.svg) no-repeat 50% 50%;
-            mask: url(./telegram.svg) no-repeat 50% 50%;
+            -webkit-mask: url(https://topentol.sirv.com/nodeconf20/footer/telegram.svg) no-repeat 50% 50%;
+            -ms-mask: url(https://topentol.sirv.com/nodeconf20/footer/telegram.svg) no-repeat 50% 50%;
+            mask: url(https://topentol.sirv.com/nodeconf20/footer/telegram.svg) no-repeat 50% 50%;
         }
     }
 

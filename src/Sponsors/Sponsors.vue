@@ -18,7 +18,7 @@
 
 <script>
 import Banner from '../_common/Banner/Banner.vue';
-import { serverUri } from "../variables";
+import { serverUri } from '../variables';
 
 export default {
 	components: {
@@ -27,7 +27,7 @@ export default {
 	data: () => ({
 		bannerData: {
 			BannerText: 'Join the board of Node Conf 2020 supporting IT companies, be at one of the biggest IT events in Armenia and get your company seen.Become a Node Conf 2020 sponsor!',
-            imageSource: `${serverUri}/banners/illustration-sponsor-v-1@3x.png`,
+			imageSource: `${serverUri}/banners/illustration-sponsor-v-1@3x.png`,
 			buttonLink: 'http://bit.ly/supportNodeConfAM20',
 			buttonText: 'Become a Sponsor',
 		},
