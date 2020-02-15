@@ -18,7 +18,7 @@
 <script>
 import Banner from '../_common/Banner/Banner.vue';
 import { serverUri } from '../variables';
-import speakers from '../_services/speakers';
+// import speakers from '../_services/speakers';
 
 export default {
 	components: {
