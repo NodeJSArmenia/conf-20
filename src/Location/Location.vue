@@ -27,9 +27,9 @@ export default {};
         align-items: center;
         justify-content: space-evenly;
 
-        -ms-mask: url(./chack.svg) no-repeat 0 0;
-        -webkit-mask: url(./chack.svg) no-repeat 0 0;
-        mask: url(./chack.svg) no-repeat 0 0;
+        -ms-mask: url(https://topentol.sirv.com/nodeconf20/chack.svg) no-repeat 0 0;
+        -webkit-mask: url(https://topentol.sirv.com/nodeconf20/chack.svg) no-repeat 0 0;
+        mask: url(https://topentol.sirv.com/nodeconf20/chack.svg) no-repeat 0 0;
         -webkit-mask-position: center;
         -ms-mask-position: center;
         mask-position: center;
@@ -44,9 +44,9 @@ export default {};
         align-items: center;
         justify-content: space-evenly;
 
-        -ms-mask: url(./chack.svg) no-repeat 0 0;
-        -webkit-mask: url(./chack.svg) no-repeat 0 0;
-        mask: url(./chack.svg) no-repeat 0 0;
+        -ms-mask: url(https://topentol.sirv.com/nodeconf20/chack.svg) no-repeat 0 0;
+        -webkit-mask: url(https://topentol.sirv.com/nodeconf20/chack.svg) no-repeat 0 0;
+        mask: url(https://topentol.sirv.com/nodeconf20/chack.svg) no-repeat 0 0;
         -webkit-mask-position: center;
         -ms-mask-position: center;
         mask-position: center;
