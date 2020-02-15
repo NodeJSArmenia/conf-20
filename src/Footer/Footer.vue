@@ -2,7 +2,7 @@
     <div class="Footer">
         <div class="LogoContainer">
             <a href="#Intro" class="LogoLink" v-smooth-scroll="navConfig">
-                <Logo :size="150"/>
+                <Logo :size="250"/>
             </a>
         </div>
         <div class="SocialLinks">
@@ -28,15 +28,15 @@
         </div>
         <div class="PressRelease">
             Press Release
-            <a href="/Press-Release-EN.pdf" target="_blank">En</a> |
-            <a href="/Press-Release-AM.pdf" class="AM" target="_blank">Am</a>
+            <a href="/Press-Release-EN.pdf" class="Links" target="_blank">En</a> |
+            <a href="/Press-Release-AM.pdf" class="Links" target="_blank">Am</a>
         </div>
         <p class="Credits">
             Design and branding by
-            <a href="https://www.behance.net/Davidtiger" target="_blank">thedesigner</a>,
-            coded in Vue.js by <a class="Devs" href="https://github.com/nairihar" target="_blank">@nairihar</a>,
-            <a class="Devs" href="https://github.com/tovmassian" target="_blank">@tovmassian</a> and
-            <a class="Devs" href="https://github.com/NodeJSArmenia/conf-20/graphs/contributors"
+            <a class="Links" href="https://www.behance.net/Davidtiger" target="_blank">thedesigner</a>,
+            coded in Vue.js by <a class="Links" href="https://github.com/nairihar" target="_blank">@nairihar</a>,
+            <a class="Links" href="https://github.com/tovmassian" target="_blank">@tovmassian</a> and
+            <a class="Links" href="https://github.com/NodeJSArmenia/conf-20/graphs/contributors"
                target="_blank">others</a>.
         </p>
     </div>
@@ -95,15 +95,6 @@ export default {
         font-style: normal;
         line-height: 1.25;
         letter-spacing: 0.5px;
-
-        a {
-            color: $green-primary;
-            text-transform: uppercase;
-        }
-
-        .AM {
-            color: $text-primary;
-        }
     }
 
     .SocialIcon {
@@ -198,18 +189,17 @@ export default {
         line-height: 1.25;
         letter-spacing: 0.5px;
         text-align: center;
-
-        a {
-            color: $green-primary;
-        }
-
-        .Devs {
-            color: $text-primary;
-        }
     }
 
     a:not(.LogoLink):not(.SocialIcon) {
-        text-decoration: underline;
         font-weight: bold;
+    }
+
+    .Links {
+        color: $green-primary;
+    }
+
+    .Links:hover {
+        text-decoration: underline;
     }
 </style>

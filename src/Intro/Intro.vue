@@ -103,7 +103,7 @@ export default {
 		}
 	}
 
-	@media (max-width: 450px) {
+	@media (max-width: 490px) {
 		#Titles {
 			display: grid;
 		}

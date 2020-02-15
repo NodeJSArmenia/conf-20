@@ -76,26 +76,32 @@ export default {
 	@import '../_styles/colors';
 
 	.Header {
-		display: none;
+		display: flex;
 		min-height: 100px;
 		align-items: center;
 		padding: .5em 0;
-		position: absolute;
+		position: fixed;
 		width: 100%;
-		top: 0;
+		top: -80px;
 		left: 0;
 		z-index: 100;
 		background-color: transparent;
-		transition: all .3s ease;
+		transition: top .2s cubic-bezier(0, -0.01, 0.96, 0.21);
 
 		&.-sticked {
 			display: flex;
 			position: fixed;
+			top: 0;
 			min-height: 80px;
 			background: $bg-primary;
-			box-shadow: 0px -8px 8px 5px rgba(162, 162, 162, 0.3);
+			border-bottom: 1px solid $green-primary;
+			transition: top .2s cubic-bezier(0, -0.01, 0.96, 0.21);
 		}
 
+	}
+
+	.LogoContainer, .NavBtn {
+		z-index: 999;
 	}
 
 	.HeaderContainer {
@@ -188,6 +194,7 @@ export default {
 		.Header.-open .Navigation {
 			top: 0;
 			transition: top .6s ease;
+			border-bottom: 1px solid $green-primary;;
 		}
 
 		.Navigation .Item {
