@@ -5,7 +5,6 @@
             <div class="row"
                  v-for="(team, teamIndex) in teams"
                  :key="teamIndex">
-                <h3 class="Title TeamTitle"><span>{{ team.title.green }}</span> {{ team.title.white }}</h3>
                 <div class="MemberCol">
                     <div class="Member"
                          v-for="(member, index) in team.members"
@@ -25,10 +24,6 @@ export default {
 	data: () => ({
 		teams: [
 			{
-			    title: {
-			        green: 'Node.js',
-                    white: 'Armenia',
-                },
 				members: [
 					{
 						img: '/team/Nairi_Harutyunyan.png',
@@ -58,10 +53,6 @@ export default {
 				],
 			},
 			{
-                title: {
-                    green: 'Tech Events',
-                    white: 'Armenia',
-                },
 				members: [
 					{
 						img: '/team/Alexander_Adamyan.png',
@@ -113,16 +104,6 @@ export default {
         margin-bottom: 50px;
     }
 
-    .TeamTitle {
-        width: 100%;
-        font-size: 30px;
-        padding-left: 20px;
-        margin-bottom: 30px;
-        font-weight: bold;
-        text-align: left;
-        border-bottom: 3px solid $text-primary;
-    }
-
     .Member {
         width: 20%;
         text-align: center;
@@ -170,7 +151,13 @@ export default {
         color: #e8e8e8;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 700px) {
+        .Name {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 600px) {
         .MemberCol {
             justify-content: center;
         }
