@@ -25,7 +25,7 @@ export default {
 			});
 		},
 		scrollToIntro() {
-			if (window.location.hash === '#' || !window.location.hash) {
+			if (!window.location.hash) {
 				setTimeout(() => {
 					document.getElementById('IntroLogo').click();
 				}, 2500);
@@ -53,7 +53,7 @@ export default {
 
     .Network {
         position: absolute;
-        background-image: url(./bg.png);
+        background-image: url(../../public/bg.png);
         transition: opacity 0.25s cubic-bezier(0.4, 0, 1, 1);
         opacity: 0;
     }
