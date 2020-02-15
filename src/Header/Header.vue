@@ -167,7 +167,7 @@ export default {
 
 		.RequestInvite {
 			display: inherit;
-			margin: 0 50px;
+			margin: 10px 30px 10px 50px;
 			z-index: 0;
 		}
 	}
@@ -176,7 +176,7 @@ export default {
 		display: none;
 	}
 
-	@media (max-width: 600px) {
+	@media (max-width: 650px) {
 		.Navigation {
 			position: absolute;
 			left: 0;
