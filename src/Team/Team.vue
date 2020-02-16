@@ -64,7 +64,7 @@ export default {
 					{
 						img: `${serverUri}/team/Varser_Zakaryan.png`,
 						name: 'Varser Zakaryan',
-						position: 'Project Manager at JavaScript Conference Armenia',
+						position: 'Managing Director at Tech Events Armenia',
 					},
 					{
 						img: `${serverUri}/team/Gevorg_Harutyunyan.png`,
