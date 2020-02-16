@@ -28,8 +28,8 @@
         </div>
         <div class="PressRelease">
             Press Release
-            <a href="/Press-Release-EN.pdf" class="Links" target="_blank">En</a> |
-            <a href="/Press-Release-AM.pdf" class="Links" target="_blank">Am</a>
+            <a href="https://topentol.sirv.com/nodeconf20/Press-Release-EN.pdf" class="Links" target="_blank">En</a> |
+            <a href="https://topentol.sirv.com/nodeconf20/Press-Release-AM.pdf" class="Links" target="_blank">Am</a>
         </div>
         <p class="Credits">
             Design and branding by
