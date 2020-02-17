@@ -70,7 +70,7 @@
                 <h3 class="Question">How can I help the team?</h3>
                 <p class="Answer">
                     Oh, thank you for your kindness.
-                    To help us make the NodeConfAM19 happen please <a href="http://bit.ly/NodeConfAM20team"
+                    To help us make the NodeConfAM20 happen please <a href="http://bit.ly/NodeConfAM20team"
                                                                                        target="_blank">apply here</a>
                     to become a Node Conf super volunteer!
                 </p>
