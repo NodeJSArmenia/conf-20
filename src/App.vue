@@ -22,6 +22,8 @@ import Team from './Team/Team.vue';
 import Location from './Location/Location.vue';
 import Faq from './Faq/Faq.vue';
 import AppFooter from './Footer/Footer.vue';
+import Dummy from './Dummy/Dummy.vue';
+import lazyLoadComponent from './utils/lazy-load-component'
 
 export default {
 	name: 'app',
@@ -29,12 +31,22 @@ export default {
 		Welcome,
 		AppHeader,
 		Intro,
-		Speakers,
-		Sponsors,
-		Team,
 		Location,
 		Faq,
 		AppFooter,
+        Dummy,
+        Team: lazyLoadComponent({
+            componentFactory: () => import('./Team/Team.vue'),
+            loading: Dummy,
+        }),
+        Sponsors: lazyLoadComponent({
+            componentFactory: () => import('./Sponsors/Sponsors.vue'),
+            loading: Dummy,
+        }),
+        Speakers: lazyLoadComponent({
+            componentFactory: () => import('./Speakers/Speakers.vue'),
+            loading: Dummy,
+        }),
 	},
 };
 </script>
