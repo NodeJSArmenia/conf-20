@@ -27,7 +27,9 @@ export default {
 		scrollToIntro() {
 			if (!window.location.hash) {
 				setTimeout(() => {
-					document.getElementById('IntroLogo').click();
+                    if (document.documentElement.scrollTop <= 100) {
+                        document.getElementById('IntroLogo').click();
+                    }
 				}, 2500);
 			}
 		},
