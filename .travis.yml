@@ -9,4 +9,3 @@ build:
         - npm run lint
     deploy:
         - if [ "$TRAVIS_BRANCH" = "master" ]; then npm run deploy fi
-
