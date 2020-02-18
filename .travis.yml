@@ -4,7 +4,7 @@ node_js:
 
 build:
     install:
-        - npm ci
+        - npm install
     linting:
         - npm run lint
     deploy:
