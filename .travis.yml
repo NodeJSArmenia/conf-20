@@ -9,6 +9,7 @@ script:
     - npm run lint
 
 after_success:
-    - if [[ "$TRAVIS_BRANCH" == "master" ]]; then
-        npm run deploy;
-    fi;
+    - >
+        if [[ "$TRAVIS_BRANCH" == "master" ]]; then
+            npm run deploy;
+        fi;
