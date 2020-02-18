@@ -4,6 +4,5 @@ node_js:
 
 build:
     install: npm ci
-    script: echo "npm test temporarily disabled"
     linting: npm run lint
     deploy: if [ "$TRAVIS_BRANCH" = "master" ]; then npm run deploy fi
