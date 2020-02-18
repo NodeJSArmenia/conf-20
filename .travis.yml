@@ -8,5 +8,5 @@ build:
     linting:
         - npm run lint
     deploy:
-        - npm run deploy
-        if: branch = master
+        - if [ "$TRAVIS_BRANCH" = "master" ]; then npm run deploy fi
+
