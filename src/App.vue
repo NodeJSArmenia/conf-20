@@ -16,9 +16,7 @@
 import Welcome from './Welcome/Welcome.vue';
 import AppHeader from './Header/Header.vue';
 import Intro from './Intro/Intro.vue';
-import Location from './Location/Location.vue';
 import Faq from './Faq/Faq.vue';
-import AppFooter from './Footer/Footer.vue';
 import Dummy from './Dummy/Dummy.vue';
 import lazyLoadComponent from './utils/lazy-load-component';
 
@@ -28,10 +26,16 @@ export default {
 		Welcome,
 		AppHeader,
 		Intro,
-		Location,
 		Faq,
-		AppFooter,
 		Dummy,
+		AppFooter: lazyLoadComponent({
+			componentFactory: () => import('./Footer/Footer.vue'),
+			loading: Dummy,
+		}),
+		Location: lazyLoadComponent({
+			componentFactory: () => import('./Location/Location.vue'),
+			loading: Dummy,
+		}),
 		Team: lazyLoadComponent({
 			componentFactory: () => import('./Team/Team.vue'),
 			loading: Dummy,
