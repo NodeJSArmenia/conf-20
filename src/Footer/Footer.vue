@@ -23,7 +23,7 @@
                    target="_blank"></a>
             </span>
             <span class="SocialIcon">
-                <a class="Icon Icon-Telegram" href="http://t.me/nodejsarmenia" target="_blank"></a>
+                <a class="Icon Icon-Telegram" href="https://t.me/NodeConfAM" target="_blank"></a>
             </span>
         </div>
         <div class="PressRelease">
