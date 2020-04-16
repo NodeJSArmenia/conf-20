@@ -3,7 +3,7 @@
 		<div class="Container">
 			<div id="Titles">
 				<h1 class="Title HeadTitle"><span>NodeConf</span> 2020 Armenia</h1>
-				<span class="Title Subtitle">Apr <span>25</span>, 2020   -   <span>AUA</span>, Yerevan</span>
+				<span class="Title Subtitle">New date is <span>coming soon!</span>  -   <span>AUA</span>, Yerevan</span>
 			</div>
 		</div>
 		<Banner title="A full-day, two-track conference all about Node.js."
